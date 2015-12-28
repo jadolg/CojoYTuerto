@@ -88,7 +88,7 @@ public class CojoYTuertoFrame extends javax.swing.JFrame {
                 .setOAuthConsumerSecret("5B1R4bxZv7TcO7Vmq3NvhM3Bo3YcO0qCIJP2vDD9HnOaPL63YD");
         configBuilder.setHttpProxyHost("127.0.0.1");
         configBuilder.setUseSSL(true);
-        configBuilder.setHttpProxyPort(8080);
+        configBuilder.setHttpProxyPort(3128);
 
         configBuilder.setOAuthAccessToken(Token)
                 .setOAuthAccessTokenSecret(TokenSecret);

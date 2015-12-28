@@ -36,7 +36,7 @@ public class TAuth {
                     .setOAuthConsumerSecret("5B1R4bxZv7TcO7Vmq3NvhM3Bo3YcO0qCIJP2vDD9HnOaPL63YD");
             configBuilder.setHttpProxyHost("127.0.0.1");
             configBuilder.setUseSSL(true);
-            configBuilder.setHttpProxyPort(8080);
+            configBuilder.setHttpProxyPort(3128);
             Twitter OAuthTwitter = new TwitterFactory(configBuilder.build()).getInstance();
             RequestToken requestToken = null;
             AccessToken accessToken = null;
